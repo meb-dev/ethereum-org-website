@@ -188,6 +188,7 @@ Open up the hello-world project in your favorite editor. Smart contracts most co
 _Note: Be sure to read the comments to understand what this contract does._
 
 ```
+// SPDX-License-Identifier: UNLICENSED
 // Specifies the version of Solidity, using semantic versioning.
 // Learn more: https://solidity.readthedocs.io/en/v0.5.10/layout-of-source-files.html#pragma
 pragma solidity >=0.7.3;
@@ -308,7 +309,7 @@ From the command line run:
 npx hardhat compile
 ```
 
-You might get a warning about `SPDX license identifier not provided in source file`, but no need to worry about that — hopefully everything else looks good! If not, you can always message in the [Alchemy discord](https://discord.gg/u72VCg3).
+Hopefully everything looks good! If not, you can always message in the [Alchemy discord](https://discord.gg/u72VCg3).
 
 ### Step 15: Write our deploy script {#step-15-write-our-deploy-script}
 
